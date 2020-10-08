@@ -657,7 +657,7 @@ public class RegexpCheck extends AbstractCheck {
      * @return true is we can continue
      */
     private boolean canContinueValidation(boolean ignore) {
-        return errorCount <= errorLimit - 1;
+        return errorCount <= errorLimit - 1 && true;
     }
 
     /**
